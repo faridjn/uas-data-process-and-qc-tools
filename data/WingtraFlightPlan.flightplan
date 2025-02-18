@@ -1,0 +1,189 @@
+{
+  "locked": false,
+  "safety": {
+    "rthMode": 1,
+    "version": 2,
+    "maxGroundClearance": 182.9,
+    "minGroundClearance": 61,
+    "connectionLossTimeout": 60,
+    "minRTHHeightAboveHome": 61
+  },
+  "siteId": "71d6a73b-6b1a-43b3-9695-e80098e6a591",
+  "version": 1,
+  "fileType": "Plan",
+  "flightId": "33f9e7e4-0248-4d1b-8582-9c9a14f21703",
+  "geofence": {
+    "polygon": [
+      [
+        35.06722029314503,
+        -106.74750539092642
+      ],
+      [
+        35.07434118363972,
+        -106.71770654226077
+      ],
+      [
+        35.08192303986572,
+        -106.72055708931862
+      ],
+      [
+        35.07553507193632,
+        -106.74965822603642
+      ],
+      [
+        35.06722029314503,
+        -106.74750539092642
+      ]
+    ],
+    "version": 1,
+    "geofenceType": 1,
+    "geofenceRadius": 1200
+  },
+  "flightPlan": {
+    "items": [
+      {
+        "type": "ComplexItem",
+        "linked": true,
+        "version": 2,
+        "coordinate": [
+          35.0749384127995,
+          -106.73478553186592,
+          0
+        ],
+        "loiterAngle": 0,
+        "exitAltitude": 119.40000000000009,
+        "loiterOffset": 130,
+        "loiterRadius": 60,
+        "loiterHeading": 253.4934861275728,
+        "complexItemType": "takeoff",
+        "takeOffAltitude": 50
+      },
+      {
+        "grid": {
+          "angle": 74,
+          "spacing": 27.42,
+          "altitude": 91.4,
+          "multithreading": false,
+          "turnAroundDistance": 80,
+          "turnAroundSideOffset": 70,
+          "safeRTHMaxSurveyAltitude": null
+        },
+        "type": "ComplexItem",
+        "camera": {
+          "pointDensity": 1.442550505050505,
+          "AltitudeOffset": 0,
+          "groundResolution": 1.442550505050505,
+          "imageSideOverlap": 80,
+          "imageFrontalOverlap": 70,
+          "cameraTriggerDistance": 27.42
+        },
+        "polygon": [
+          [
+            35.07045633945677,
+            -106.74556363052226
+          ],
+          [
+            35.07334117325436,
+            -106.74649531747151
+          ],
+          [
+            35.07898835608109,
+            -106.72209909005541
+          ],
+          [
+            35.07607131667156,
+            -106.72123901474257
+          ],
+          [
+            35.07449224329028,
+            -106.72858366886453
+          ],
+          [
+            35.07303291655742,
+            -106.7293419735555
+          ],
+          [
+            35.072705180170495,
+            -106.73082330251688
+          ],
+          [
+            35.07312024941467,
+            -106.73419893484251
+          ],
+          [
+            35.07045633945677,
+            -106.74556363052226
+          ]
+        ],
+        "version": 3,
+        "wasFlown": false,
+        "complexItemType": "area",
+        "terrainFollowing": true
+      },
+      {
+        "type": "ComplexItem",
+        "linked": true,
+        "version": 2,
+        "coordinate": [
+          35.0749384127995,
+          -106.73478553186592,
+          0
+        ],
+        "loiterAngle": 0,
+        "landAltitude": 0,
+        "loiterOffset": 130,
+        "loiterRadius": 60,
+        "loiterHeading": 180.00406343334015,
+        "complexItemType": "land",
+        "transitionAltitude": 50,
+        "loiterEntryAltitude": 84.40000000000009
+      }
+    ],
+    "payload": "RGB61",
+    "version": 6,
+    "gisItems": [],
+    "totalArea": 801718.3267969635,
+    "hoverSpeed": 3,
+    "cruiseSpeed": 16,
+    "creationTime": 1739915066432,
+    "firmwareType": 12,
+    "flightNumber": 1,
+    "elevationData": {
+      "name": "SRTM",
+      "type": "Auto",
+      "enabled": true
+    },
+    "missionStatus": 0,
+    "numberOfImages": 1126,
+    "activeTotalArea": 801718.3267969635,
+    "flownPercentage": 0,
+    "totalFlightTime": 2435.0345697969206,
+    "lastModifiedTime": 1739915067271,
+    "resumeMissionIndex": 0,
+    "plannedHomePosition": [
+      35.0749384127995,
+      -106.73478553186592,
+      1569
+    ],
+    "totalFlightDistance": 37544.019783417396,
+    "activeNumberOfImages": 1126,
+    "maxTelemetryDistance": 0,
+    "totalFlightHoverTime": 28.333333333333336,
+    "activeTotalFlightTime": 2435.0345697969206,
+    "totalFlightCruiseTime": 2406.701236463587,
+    "totalFlightHoverDistance": 0,
+    "activeTotalFlightDistance": 37544.019783417396,
+    "totalFlightCruiseDistance": 37544.019783417396,
+    "activeMaxTelemetryDistance": 0,
+    "activeTotalFlightHoverTime": 28.333333333333336,
+    "vehicleLastFlownCoordinate": [
+      35.0749384127995,
+      -106.73478553186592,
+      1569
+    ],
+    "activeTotalFlightCruiseTime": 2406.701236463587,
+    "activeTotalFlightHoverDistance": 100,
+    "activeTotalFlightCruiseDistance": 37544.019783417396
+  },
+  "groundStation": "WingtraPilot"
+}
