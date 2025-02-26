@@ -1,0 +1,3 @@
+Google earth Lisp file - Drag and drop this file into an instance of civil3d and then type the command: EARTH
+
+Click anywhere on your drawing with a coordinate system and it will show up in google earth
