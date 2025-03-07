@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2">
-    <Document id="12">
-        <Style id="17">
-            <LineStyle id="19">
+    <Document id="1">
+        <Style id="6">
+            <LineStyle id="8">
                 <color>ffffaa00</color>
                 <colorMode>normal</colorMode>
                 <width>2.0</width>
             </LineStyle>
-            <PolyStyle id="18">
+            <PolyStyle id="7">
                 <color>4Cffaa00</color>
                 <colorMode>normal</colorMode>
                 <fill>1</fill>
                 <outline>1</outline>
             </PolyStyle>
         </Style>
-        <Placemark id="14">
+        <Placemark id="3">
             <name>Survey Area</name>
-            <styleUrl>#17</styleUrl>
-            <Polygon id="13">
+            <styleUrl>#6</styleUrl>
+            <Polygon id="2">
                 <outerBoundaryIs>
-                    <LinearRing id="15">
+                    <LinearRing id="4">
                         <coordinates>-106.74556363052226,35.07045633945677,0.0 -106.74649531747151,35.07334117325436,0.0 -106.72209909005541,35.07898835608109,0.0 -106.72123901474257,35.07607131667156,0.0 -106.72858366886453,35.07449224329028,0.0 -106.7293419735555,35.07303291655742,0.0 -106.73082330251688,35.072705180170495,0.0 -106.73419893484251,35.07312024941467,0.0 -106.74556363052226,35.07045633945677,0.0</coordinates>
                     </LinearRing>
                 </outerBoundaryIs>
             </Polygon>
         </Placemark>
-        <Placemark id="21">
+        <Placemark id="10">
             <name>Takeoff/Landing</name>
-            <Point id="20">
+            <Point id="9">
                 <coordinates>-106.73478553186592,35.0749384127995,0</coordinates>
             </Point>
         </Placemark>
